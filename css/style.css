@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+#responsePre{
+    max-height: 500px;
+    background: whitesmoke;
+    margin: 0;
+}
+#responseDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.after-response{
+    margin-left: 18%;
+}
+/* #desc{
+    width: 60%;
+} */
+#responseDiv h1{
+    font-size: 17px;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+ul{
+    width: 20%;
+    justify-content: space-between;
+}
+.results{
+    color: rgb(28, 27, 27);
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .dev{
+        display: none;
+    }
+    .col-form-label {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    #responseDiv{
+        margin: auto;
+        text-align: center;
+    }
+}
+.col-sm-18{
+    text-align: center;
+    width: 100%;
+}
+footer{
+    /* position: relative; */
+    /* bottom: 0; */
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.fa-github{
+    font-size: 30px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    transform: scale(1.5);
+    color: black;
+}
+#dev{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+#dev:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    transform: none;
+}
+a:hover{
+    text-decoration: underline !important;
+}
