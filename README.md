@@ -28,4 +28,4 @@ While improving this project, I would start by implementing the following featur
    2. Implement more API endpoints
               
 ## Lessons Learned
-I leanrned how to develop an API, create a documentation for it and serve content when the API gets a request. I learned how to integrate a API into a project and how to manipulate the DOM using JavaScript to create a simple API based project. I learned about API management and how the API serves a request and how can it help in improving businesses.
+I learned how to develop an API, create a documentation for it and serve content when the API gets a request. I learned how to integrate a API into a project and how to manipulate the DOM using JavaScript to create a simple API based project. I learned about API management and how the API serves a request and how can it help in improving businesses.
